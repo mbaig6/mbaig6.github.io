@@ -1,0 +1,38 @@
+head  {
+        color: ;
+      } 
+
+h1 {
+    font-family: red serifs;
+    color:black;
+    font-size:80px
+   }
+
+
+
+p {
+  font-size:30px;
+  color:red ;
+  background-color:;
+  border-style: dashed;
+  border color: yellow;
+  border width: 3px;
+  border-left width: 3px;
+	border-right width: 3px
+}
+
+a {
+  color:blue;
+}	
+
+
+img {
+      width: 1500px;
+      height: 325px;
+      display: block;
+      float: left;
+      margin: 10px;
+      padding: 10px;
+      clear: both;
+
+    }
