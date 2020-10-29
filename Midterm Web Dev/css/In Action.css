@@ -1,0 +1,145 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #D2D2D2;
+  margin-bottom: 10%;
+}
+
+.header {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 4vh; 
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.logo {
+  background: url(../media/logo.png) no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 1.5em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 200px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #f3f3f3;
+}
+
+
+
+div{display: block;
+    color: #666;
+    text-align: center;
+    padding: 1px 50px
+  }
+
+
+.ParentDiv{
+    width: 100px;
+    height: 300px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+img{
+    filter: blur(0.8px);
+    opacity:1;
+    
+    width:300px;
+    height: 320px;
+}
+
+img:hover
+{
+  filter: blur(0px);
+  cursor: pointer;
+}
+
+
+
+@keyframes color-change{
+    0%{background-color: #E24E42;}
+    25%{background-color: #E9B000;}
+    50% {background-color: #EB6E80;}
+    75% {background-color: #008f95;}
+}
+
+
+
+@keyframes color-move{
+    0% {background-color:#E24E42 ;left:0px; top:0px;}
+    20%{background-color:#E9B000 ;left:200px;top:0px;}
+    45% {background-color: #EB6E80;left: 200px;top:200px;}
+    80% {background-color: #008f95;left:0px;top:200px;}
+    100% {background-color: #E24E42;left:0px;top:0px;}
+}
+
+
+#test {
+    width:68%;
+    height:5px;
+    background-color:#E24E42;
+    position: relative;
+    margin:auto;
+
+animation-name: color-change;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+
+

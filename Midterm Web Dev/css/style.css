@@ -1,0 +1,63 @@
+
+@keyframes gif {
+  0% {background: url(../media/design.gif) no-repeat center center fixed;
+  background-size: cover;}
+  45% {background: url(../media/bus.gif) no-repeat center center fixed;
+  background-size: cover;}
+  55% {background: url(../media/offroad.gif) no-repeat center center fixed;
+  background-size: cover;}
+  80% {background: url(../media/slide.gif) no-repeat center center fixed;
+  background-size: cover;}
+  88% {background: url(../media/jump.gif) no-repeat center center fixed;
+  background-size: cover;}
+  100% {background: url(../media/drift.gif) no-repeat center center fixed;
+  background-size: cover;}
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  animation-name: gif;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+.header {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+}
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 4vh; 
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+
+.logo {
+  background: url(../media/logo.png) no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 1.5em;
+}

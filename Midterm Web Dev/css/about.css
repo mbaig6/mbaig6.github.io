@@ -1,0 +1,152 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #D2D2D2; 
+  margin-bottom: 10%;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.header {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 4vh; 
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.logo {
+  background: url(../media/logo.png) no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 1.5em;
+}
+
+
+.image {
+  float:left;
+  padding-right: 1em;
+  width: 19em;
+  height: 10em;
+}
+
+
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+  line-height: 2em;
+  margin-left: 10%;
+}
+
+.image:hover {
+  transform: scale(1.5);
+}
+
+{
+  display: inline-block;
+
+}
+
+.p2 {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+
+.star-icon {
+    color: white;
+    font-size: 2em;
+    position: relative;
+}
+
+
+.star-icon.full:before {
+    color: gold;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+}
+
+.star-icon.half:before {
+    color: gold;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+  text-decoration: none;
+  color: white;
+  font-size: 4vh;
+}
+
+.p2 >a:hover {
+  text-decoration: underline;
+}
+
+.p3 {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+.p3 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+}
+
+.p3 > a:hover {
+  text-decoration: underline;
+}
+
+
+.p3 > img {
+  float:left;
+  padding-right: 1em;
+  width: 4%;
+  height: 4%;
+}
+
+@keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+.fade {
+  animation: fadein 1s;
+}
+
