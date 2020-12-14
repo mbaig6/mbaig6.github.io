@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Harry Potter Game</title>
+  <meta name= "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+   <!-- Link to the Bootstrap library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Link to an additional CSS file -->
+  <link rel="stylesheet" href="./assets/css/style1.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="header">
+    <a href="index.html" class="logo"></a>
+    <div class="header-right">
+      <a class="active" href="harry1.html">Trivia</a>
+      <a class="active" href="aboutthecharacters.html">About the Characters</a>
+      <a class="active" href="index1.html"> Game</a>
+      
+    </div>
+  </div>
+
+  <!-- Overall Bootstrap grid -->
+  <div class="container">
+
+    <div id = "box">
+    <img class= "img-fluid" src="./assets/images/kisspng-harry-potter-hogwarts-mystery-harry-potter-and-th-harry-potter-logo-png-clipart-5a7838357dc0d3.5804727315178281495151.png" alt="Wizarding-world-of-harry-potter-logo" style="width: 50%; height: 10%;">
+    <h1>Choose Your Character</h1>
+    </div>
+
+    <!-- Contents of the game-->
+    <div class="row">
+
+      <!-- Available characters -->
+      <div class="col-lg-12" id="characters-available">
+        <span class="character-image available-character" id="bellatrix-character">
+          <p>Bellatrix</p>
+          <img src="./assets/images/bella.jpeg" alt="Bellatrix Character" id="bellatrix-image" style="width: 200px" "height:100px">
+          <p class="health">120</p>
+        </span>
+
+        <span class="character-image available-character" id="malfoy-character">
+          <p>Malfoy</p>
+          <img src="./assets/images/malfoy.jpeg" alt="Malfoy Character" id="malfoy-image" style="width: 200px" "height:100px">
+          <p class="health">100</p>
+        </span>
+
+        <span class="character-image available-character" id="harrypotter-character">
+          <p>Harry Potter</p>
+          <img src="./assets/images/harry.jpeg" alt="Harry-Potter Character" id="harrypotter-image" style="width: 200px" "height:100px">
+          <p class="health">150</p>
+        </span>
+
+        <span class="character-image available-character" id="voldemort-character">
+          <p>Lord Voldemort</p>
+          <img src="./assets/images/voldemort.jpg" alt="Voldemort Character" id="voldemort-image" style="width: 200px" "height:100px">
+          <p class="health">180</p>
+        </span>
+      </div> <!-- End available characters -->
+
+      <!-- Your chosen character -->
+      <div class="col-lg-12" id="chosen-character">
+        <h2>Your Character</h2>
+      </div> <!-- End your chosen character-->
+
+      <!-- Enemies available to attack -->
+      <div class="col-lg-12" id="enemies-available">
+        <h2>Enemies Available To Attack</h2>
+      </div> <!-- End enemies available to attack -->
+
+      <!-- Fight section -->
+      <div class="col-lg-12" id="fight-section">
+        <h2>Fight Section</h2>
+        <button id="attack">Attack</button>
+      </div> <!-- End fight section -->
+
+      <!-- Defender section -->
+      <div class="col-lg-12" id="defender-section">
+        <h2>Defender</h2>
+      </div> <!-- End defender section -->
+
+      <!-- Game message section -->
+      <div class="col-lg-12" id="message-section">
+        <div id="game-message"></div>
+        <button id="restart">Restart</button>
+      </div> 
+
+    </div>
+
+  </div> 
+
+  <script type="text/javascript" src="./assets/javascript/game1.js"></script>
+
+</body>
+</html>
